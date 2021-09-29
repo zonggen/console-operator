@@ -9,6 +9,7 @@ metadata:
     app: console
   annotations:
     service.alpha.openshift.io/serving-cert-secret-name: console-serving-cert
+    # service.alpha.openshift.io/serving-cert-secret-name: serving-cert
 spec:
   ports:
     - name: https
